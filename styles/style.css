@@ -1,10 +1,123 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
-
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.9em;
   margin: 0;
+  background: linear-gradient(#1c5380, #06365f 280px, white 280px);
+  height: 100vh;
+}
+
+#mainContainerLevel0 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 15em;
+  margin-right: 15em;
+  margin-top: 6em;
+}
+
+#leftContainerLevel1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#rightContainerLevel1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#upperContainerLevel2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 0.5em;
+}
+
+#buttonLogIn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.6em 0.6em;
+  background-color: #1c5380;
+  border-radius: 5px;
+  border-color:  #1c5380;
+}
+
+#buttonLogIn span {
+  margin-left: 0.6em;
+  color: white;
+}
+
+#buttonLogIn img {
+  width: 1.6em;
+}
+
+#lowerContainerLevel2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../images/frame.png);
+  /*background-size: cover;*/
+  background-repeat: no-repeat;
+  width: 29em;
+  padding: 0 3em;
+  margin-top: 1em;
+}
+
+#upperContainerLevel3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 0.4em;
+}
+
+#upperContainerLevel3 h1 {
+  margin-top: 1.5em;
+  margin-bottom: 0;
+}
+
+#upperContainerLevel3 p {
+  margin-bottom: 0;
+}
+
+#lowerContainerLevel3 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 3em;
+  width: 100%;
+}
+
+#navBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  margin-top: 3.8em;
+  
+}
+
+#navBar a {
+  padding: 0.8em;
+  font-weight: 600;
+}
+
+
+.textColor {
+  color: #1c5380;
+}
+
+.colorDarkBlue {
+  color: #06365f;
+}
+
+.buttonNoBorder {
+  border: none;
+}
+
+.upperCase {
+  text-transform: uppercase;
 }
