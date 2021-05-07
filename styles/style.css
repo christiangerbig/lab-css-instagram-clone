@@ -6,6 +6,10 @@ body {
   height: 100vh;
 }
 
+a {
+  text-decoration: none;
+}
+
 #mainContainerLevel0 {
   display: flex;
   justify-content: space-around;
@@ -46,7 +50,7 @@ body {
   border-color:  #1c5380;
 }
 
-#buttonLogIn span {
+#buttonLogIn a {
   margin-left: 0.6em;
   color: white;
 }
